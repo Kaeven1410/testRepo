@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 
 // Fetch input from login form
 $user = $_POST['username'];
-$pass = $_POST['password'];
+$pass = $_POST['password'];nmn
 
 // Vulnerable SQL query
 $sql = "SELECT * FROM users WHERE username = '$user' AND password = '$pass'";
