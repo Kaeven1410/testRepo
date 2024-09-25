@@ -1,0 +1,347 @@
+*{
+	font-family: arial, sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+}
+
+h1, li{
+	text-align: center;
+}
+
+header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 2%;
+	overflow: hidden;
+}
+
+header li{
+	float: right;
+	padding: 2%;
+}
+
+header li a{
+	color: rgb(76,189,228);
+	border: 2px solid rgb(76,189,228);
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+	text-decoration: none;
+}
+
+header li input[type=submit]{
+	color: rgb(76,189,228);
+	border: 2px solid rgb(76,189,228);
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+	background-color: white;
+}
+
+header li input[type=submit]:hover{
+	color: white;
+	background-color: rgb(76,189,228);
+	cursor: pointer;
+}
+
+header li a:hover{
+	color: white;
+	background-color: rgb(76,189,228);
+}
+
+header li img{
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin-right: 10px;
+}
+
+#reg a span{
+	vertical-align: super;
+}
+
+footer p{
+	text-align: center;
+	position: relative;
+	bottom: 25px;
+}
+
+footer p a{
+	color: black;
+}
+
+footer p a:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+#reg a{
+	color: white;
+	background-color: rgb(76,189,228);
+}
+
+#reg a:hover{
+	background-color: rgb(34,119,147);
+	border-color: rgb(34,119,147);
+}
+
+
+
+#prod{
+	float: none;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%, 0%);
+}
+
+#prod_list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+#prod_list li img{
+	display: block;
+	max-width:100%;
+	height: auto;
+}
+
+#prod_list li{
+	max-width: 27%;
+	float: left;
+	padding: 5% 3%;
+	overflow: auto;
+}
+
+
+
+.break{
+	clear: left;
+}
+
+.new_price{
+	text-decoration: line-through;
+	color: grey;
+}
+
+#prod_list li span{
+	color: red;
+}
+
+/* REGISTRATION PAGE */
+.register, #confirm{
+	background-color: black;
+	color: white;
+}
+
+.register form{
+	padding: 0px 0 30px 0;
+	width: 350px;
+	margin: 0 auto;
+	border-radius: 5px;
+	border: 1px solid white;
+	margin-top: 8vh;
+}
+
+.register>div{
+	
+}
+
+.register>div a{
+	text-decoration: none;
+	color: rgb(76,189,228);
+	font-weight: bold;
+}
+
+.register>div a:hover, .register>h1 a:hover{
+	text-decoration: underline;
+}
+
+.register>h1{
+	font-size: 20px;
+}
+
+.register>h1 a{
+	color: white;
+	text-decoration: none;
+}
+
+.register form p{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.register img{
+	display: block;
+	margin: 0 auto;
+}
+
+.register fieldset{
+	border-style: none;
+	margin: 0 auto;
+}
+
+.register td{
+	padding: 10px 0;
+}
+
+.register td input{
+	width: 140px;
+	height: 40px;
+	padding: 0 5px;
+	border: 2px solid rgb(76,189,228);
+	border-radius: 5px;
+}
+
+#email_field td input{
+	width: 305px;
+	padding: 0 0 0 10px;
+}
+
+.register div{
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+.register div input, #confirm a{
+	background-color: rgb(76,189,228);
+	color: white;
+	padding: 10px 40px;
+	cursor: pointer;
+	border-style: none;
+	border-radius: 5px;
+}
+
+.register div input:hover, #confirm a:hover{
+	background-color: rgb(34,119,147);
+}
+
+/* login page */
+#login input{
+	width: 305px;
+}
+
+/* Contact us page */
+#contact{
+	text-align: center;
+	line-height: 25px;
+}
+
+#contact_p{
+}
+
+#disclaimer{
+	margin: 50px 40px;
+	padding: 10px 20px;
+	text-align: justify;
+	border: 2px solid black;
+}
+
+/* confirm page */
+
+#confirm div{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: large;
+}
+
+#confirm a{
+	text-decoration: none;
+}
+
+
+/* Account Page */
+
+#acc>div img{
+	display: block;
+	width: 100px;
+	height: auto;
+	padding: 0;
+}
+
+#acc>div{
+	float: left;
+}
+
+#acc>div, #account{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#account fieldset{
+	margin-bottom: 3%;
+	border: 2px solid rgb(76,189,228);
+	border-radius: 10px;
+	
+}
+
+#account input[type="submit"]{
+	color: white;
+	border: 2px solid rgb(76,189,228);
+	padding: 8px 6px;
+	
+	background-color: rgb(76,189,228);
+	
+}
+
+#edit_name{
+	margin-left: 3%;
+}
+
+#account input[type="submit"]:hover{
+	color: rgb(76,189,228);
+	border: 2px solid rgb(76,189,228);
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#acc footer{
+	margin: 40px 0 0 0;
+}
+
+@media only screen and (max-width:900px){
+	#reg{
+		float: left;
+	}
+	
+	
+}
+
+@media only screen and (max-width:500px){
+	
+	.break{
+		clear: none;
+	}
+	
+	#prod_list li{
+		clear: both;
+		max-width: 100%;
+	}
+	
+	#reg span{
+		display: none;
+	}
+	
+	#reg img{
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 550px){
+	#acc>div{
+		float: none;
+		text-align: center;
+	}
+	
+	#acc>div img{
+		margin: 0 auto;
+	}
+}
