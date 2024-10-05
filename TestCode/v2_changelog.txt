@@ -1,4 +1,0 @@
-Changelog 15/04/2024 10.27pm
-- Modified "time" column in "userlist" DB table to use int(0) as default value
-- Added missing argument $conn in mysqli_close() in account.php
-- Downsampled logo.png image. Original size was 13.2MB, causing slower page rendering
